@@ -66,8 +66,7 @@ Mais detalhes acerca das respostas, paginação, etc. podem ser encontrados na A
 
 ## ⚗️ Testes
 
-N/A
-<!-- TODO: ADICIONAR COMANDOS PARA OS TESTES -->
+Para rodar os testes automatizados, execute o comando `python manage.py test`.
 
 ## 👽 Principais tecnologias utilizadas
 

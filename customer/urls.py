@@ -5,7 +5,7 @@ from customer.views import CustomerViewSet
 
 
 router = DefaultRouter(trailing_slash=False)
-router.register('', CustomerViewSet, basename='Customer')
+router.register('', CustomerViewSet, basename='Customers')
 
 
 urlpatterns = [
