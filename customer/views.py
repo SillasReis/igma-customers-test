@@ -11,6 +11,7 @@ ValidationError.status_code = 422
 
 
 class CustomerViewSet(viewsets.ModelViewSet):
+    """Show all registered customers"""
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
 
