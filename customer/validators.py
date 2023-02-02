@@ -1,8 +1,15 @@
+from datetime import date
+
+
 CPF_DIGITS_MULTIPLIERS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 
 def validate_name(name: str) -> bool:
     return all(char.isalpha() or char.isspace() for char in name)
+
+
+def validate_birth_date(birth_date: str) -> bool:
+    return birth_date < date.today()
 
 
 def validate_cpf(cpf: str) -> bool:

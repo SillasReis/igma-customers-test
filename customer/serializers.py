@@ -10,14 +10,16 @@ class CustomerSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def validate(self, data: dict):
-        if not validators.validate_cpf(data.get('cpf', '')):
-            raise serializers.ValidationError({'cpf': 'CPF inválido.'}, 422)
+        if not validators.validate_cpf(data.get('cpf')):
+            raise serializers.ValidationError({'cpf': 'CPF inválido.'})
 
-        if not validators.validate_name(data.get('name', '')):
+        if not validators.validate_name(data.get('name')):
             raise serializers.ValidationError(
                 {'name': 'Nome inválido. O nome deve conter apenas letras, espaços e, no máximo, 100 caracteres.'},
-                422
             )
+
+        if not validators.validate_birth_date(data.get('birth_date')):
+            raise serializers.ValidationError({'birth_date': 'A data de nascimento deve estar no passado.'})
 
         return data
 
