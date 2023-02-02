@@ -15,6 +15,7 @@ class CustomerViewSet(viewsets.ModelViewSet):
     serializer_class = CustomerSerializer
 
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
+    ordering_fields = ['name', 'birth_date']
     filterset_fields = ['cpf']
-
+    
     http_method_names = ['get', 'post', 'head']
