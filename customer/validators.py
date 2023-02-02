@@ -20,6 +20,5 @@ def validate_cpf(cpf: str) -> bool:
         remainder = sum % 11
 
         expected_cpf += "0" if remainder < 2 else str(11 - remainder)
-        print(expected_cpf)
 
     return cpf == expected_cpf
