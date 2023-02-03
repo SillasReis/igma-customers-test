@@ -29,40 +29,17 @@ Quase lá! O último passo antes de iniciar o servidor é executar as migraçõe
 
 Pronto! Agora é só executar o comando `python manage.py runserver` e a API estará disponível em [http://localhost:8000/customers].
 
-## 🗺️ Como usar a API
+## 🗺️ Documentação
 
-### 🆕 Criar cliente
+A documentação completa das rotas e funcionalidades pode ser encontrada via swagger e redoc nas seguintes urls:
 
-* Rota: `/customers`
-* Método: `POST`
-* Request body:
+* Remoto
+  * [Swagger](https://igma-customer-test.herokuapp.com/swagger)
+  * [Redoc](https://igma-customer-test.herokuapp.com/redoc)
 
-```json
-{
-    "name": "Bino Lino",
-    "cpf": "08443590092",
-    "birth_date": "2005-10-31"
-}
-```
-
-### 👨👩 Listar clientes
-
-* Rota: `/customers`
-* Método: `GET`
-
-### 🔍 Buscar cliente
-
-#### Por ID
-
-* Rota: `/customers/<ID do cliente>`
-* Método: `GET`
-
-#### Por CPF
-
-* Rota: `/customers?cpf=<cpf do cliente>`
-* Método: `GET`
-
-Mais detalhes acerca das respostas, paginação, etc. podem ser encontrados na API navegável em [localhost:8000/customers](http://localhost:8000/customers?format=api) (servidor local) ou em [https://igma-customer-test.herokuapp.com/customers/](https://igma-customer-test.herokuapp.com/customers?format=api) (servidor remoto).
+* Local
+  * [Swagger](http://localhost:8000/swagger)
+  * [Redoc](http://localhost:8000/redoc)
 
 ## ⚗️ Testes
 
