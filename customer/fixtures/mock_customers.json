@@ -1,0 +1,182 @@
+[
+    {
+        "model": "customer.customer",
+        "pk": "eb55a5b0-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Chad Garcia",
+            "cpf": "78648558220",
+            "birth_date": "1978-02-23"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb64b816-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Peter Hartman",
+            "cpf": "86507951889",
+            "birth_date": "1975-05-01"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb6ab338-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Joseph Rivera",
+            "cpf": "86093451577",
+            "birth_date": "1988-05-30"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb701986-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Carolyn Vazquez",
+            "cpf": "95354918308",
+            "birth_date": "1954-09-25"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb76af9e-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Hannah Solis",
+            "cpf": "09438789006",
+            "birth_date": "1997-01-16"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb7ff7fc-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "David King",
+            "cpf": "03866468130",
+            "birth_date": "1963-10-19"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb8ca9d4-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Melissa King",
+            "cpf": "62730431403",
+            "birth_date": "1973-04-21"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eb9c1c84-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Amanda Martin",
+            "cpf": "21684621941",
+            "birth_date": "1936-06-13"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "eba9986e-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Connor Williams",
+            "cpf": "74884889703",
+            "birth_date": "2006-09-07"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebb3f41c-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Desiree Patrick",
+            "cpf": "39473057610",
+            "birth_date": "1963-01-10"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebc308d0-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Michael Bolton",
+            "cpf": "16517039732",
+            "birth_date": "2002-06-28"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebd0012a-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Susan Medina",
+            "cpf": "93705866362",
+            "birth_date": "1948-06-05"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebe007be-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Taylor Gonzalez",
+            "cpf": "65579176252",
+            "birth_date": "1944-09-27"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebe62c5c-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Shannon Cabrera",
+            "cpf": "96825951343",
+            "birth_date": "1973-01-04"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebecd016-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Kathryn Martin",
+            "cpf": "61880851016",
+            "birth_date": "1956-10-05"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ebf54188-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "David Sanford",
+            "cpf": "01022035479",
+            "birth_date": "1940-08-20"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ec05884a-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Mary Myers",
+            "cpf": "16934447395",
+            "birth_date": "1995-09-08"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ec0db966-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Daisy Gardner PhD",
+            "cpf": "57719976509",
+            "birth_date": "1950-10-03"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ec166e9e-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "John Edwards",
+            "cpf": "00423224565",
+            "birth_date": "1958-10-12"
+        }
+    },
+    {
+        "model": "customer.customer",
+        "pk": "ec20661a-a308-11ed-8f1f-fabf09bdcb88",
+        "fields": {
+            "name": "Donald James",
+            "cpf": "62625002786",
+            "birth_date": "2006-02-16"
+        }
+    }
+]
